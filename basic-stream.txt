@@ -1,0 +1,23 @@
+INFO: This is a very simple, resizable and easy HTML5 player for WHMSonic radios. You can simply copy/paste the following code, no need to download any script. AAC+ encoder streams are supported by Google Chrome only. MP3 streams are supported by all browsers. This player can work with WHMSonic radios only. Shoutcast v2, v1, IceCast are supported.
+
+
+How To Use:
+
+    Copy/Paste the following HTML code
+    Insert the HTML code into your website HTML code anywhere in <div> or in tables you like.
+
+Player config options
+
+    autoplay text means it will start to play the stream automatically. If you remove autoplay text from the code, autoplay will be disabled.
+    audio.volume = 0.5; is the default volume setting of the player. 0.5 means %50 volume. 1.0 for %100.
+    width: The width size of the player, default 400px.
+
+=========================== Script ====================================
+
+<audio id="stream" controls preload="none" autoplay style="width: 400px;">
+<source src="http://175.103.48.4:9304/;" type="audio/mpeg">
+</audio>
+<script>
+var audio = document.getElementById('stream');
+audio.volume = 0.5;
+</script>
