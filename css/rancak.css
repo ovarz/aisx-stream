@@ -14,7 +14,7 @@
   --default-fontsize:15px;
   --title-fontsize:17px;
   --max-zindex:2147483648;
-  --bg-1:#21232c;
+  --bg-1:#6bb6ca;
 }
 
 
@@ -43,10 +43,19 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 
 
 
-.float-player{position:absolute; bottom:0; left:0; width:100%; height:55px; margin-bottom:0;}
+.bg-bottom, .float-player, .float-player-bg{position:absolute; bottom:0; left:0; width:100%;}
+.bg-bottom{position:absolute; z-index:calc(var(--max-zindex) - 7000); bottom:85px; height:280px;}
+
+
+
+.float-player{z-index:calc(var(--max-zindex) - 5000); height:70px; margin-bottom:0;}
+.float-player-bg{z-index:calc(var(--max-zindex) - 6000); height:240px;}
+.float-player .playerScreen{display:none;}
 .float-player .controls{height:100%; padding:0; display:flex; align-items:center;}
 .float-player .controls .progress{width:100%;}
 .float-player .controls .progress .time{position:static;}
+.float-player .controls .rightblock .volumeBar{top:29px;}
+.float-player .controls .rightblock .volumeText{bottom:-50px;}
 
 
 
