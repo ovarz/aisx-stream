@@ -12,7 +12,7 @@
     </span>
   </section>
   
+  <?php require ($_SERVER['ASIX_IDWS'].'module/player.php')?>
 </div>
-<?php require ($_SERVER['ASIX_IDWS'].'module/player.php')?>
 <?php require ($_SERVER['ASIX_IDWS'].'inc/footer.php')?>
 <?php require ($_SERVER['ASIX_IDWS'].'inc/base-bottom.php')?>

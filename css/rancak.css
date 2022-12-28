@@ -40,11 +40,10 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 
 
 .rancak-container{position:relative; min-height:100vh;}
-.rancak-container .width-max{display:block;}
 
 
 
-.float-player{position:absolute; bottom:0; left:0; width:100%; height:55px;}
+.float-player{position:absolute; bottom:0; left:0; width:100%; height:55px; margin-bottom:0;}
 .float-player .controls{height:100%; padding:0; display:flex; align-items:center;}
 .float-player .controls .progress{width:100%;}
 .float-player .controls .progress .time{position:static;}
