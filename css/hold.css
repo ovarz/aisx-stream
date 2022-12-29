@@ -1,6 +1,6 @@
 :root, :before, :after{
-  --bg-2:#ffffd4;  
-  --bg-3:#292c3d;  
+  --bg-2:#f7fdd3;  
+  --bg-3:#093b4b;  
   --border-color-dark:0 0 0;
   --border-color-light:255 255 255;
   --color-1:#EEEEEE; 
@@ -39,13 +39,12 @@ border-top-left-radius:var(--rounded-2); border-bottom-left-radius:var(--rounded
 
 
 
-.bg-bottom{background:url("../img/bg-bottom.png") repeat-x bottom left;}
+.rancak-container{background-size:cover; background-position:bottom center; background-repeat:no-repeat;}
 
 
 
+.float-player, .float-player .controls{background-color:var(--bg-3); border:0;}
 .float-player{box-shadow:0 0 0;}
-.float-player-bg{background:url("../img/bg-player.png") repeat-x bottom center;}
-.float-player .controls{background-color:transparent; border:0;}
 
 
 
@@ -69,7 +68,22 @@ footer *{text-align:center; padding:var(--size-3) var(--size-4); color:var(--col
 
 
 @media screen and (min-width:0px) and (max-width:1023px){
-  
+  @media screen and (orientation:portrait){
+    .rancak-container{background-image:url("../img/bg-portrait-small.jpg");}
+  }
+  @media screen and (orientation:landscape){
+    .rancak-container{background-image:url("../img/bg-landscape-small.jpg");}
+  }
+}
+
+
+
+
+
+@media screen and (min-width:640px) and (max-width:1023px){
+  @media screen and (orientation:portrait){
+    .rancak-container{background-image:url("../img/bg-portrait-medium.jpg");}
+  }
 }
 
 
@@ -77,7 +91,15 @@ footer *{text-align:center; padding:var(--size-3) var(--size-4); color:var(--col
 
 
 @media screen and (min-width:1024px){
-  
+  .rancak-container{background-image:url("../img/bg-landscape-medium.jpg");}
+}
+
+
+
+
+
+@media screen and (min-width:1280px){
+  .rancak-container{background-image:url("../img/bg-landscape-large.jpg");}
 }
   
   
