@@ -1,6 +1,5 @@
 :root, :before, :after{
   --bg-2:#f7fdd3;  
-  --bg-3:#093b4b;  
   --border-color-dark:0 0 0;
   --border-color-light:255 255 255;
   --color-1:#EEEEEE; 
@@ -18,16 +17,14 @@
 
 
 body, html{color:var(--color-1);}
-html{background:linear-gradient(to bottom, var(--bg-1) 0%, var(--bg-2) 100%)}
 a, .btn, button{transition:var(--default-transition); cursor:pointer}
 a, button{color:var(--color-2); fill:var(--color-2);}
 a:hover, button:hover{color:var(--color-3); fill:var(--color-3);}
 .btn, a.btn, button.btn, input.btn{background-color:var(--color-3); color:var(--color-2); fill:var(--color-2); border-radius:var(--rounded-2);}
 .btn:hover, a.btn:hover, button.btn:hover, input.btn:hover{background-color:var(--color-4); color:var(--bg-1);}
-#btt{position:fixed; bottom:calc(var(--default-size-6) + var(--default-size-4)); right:0; cursor:pointer;
-z-index:calc(var(--max-zindex) - 4000); width:40px; height:40px; background-color:var(--color-3); fill:var(--bg-1);
-border-top-left-radius:var(--rounded-2); border-bottom-left-radius:var(--rounded-2);}
-#btt:hover, #btt:focus{background-color:var(--color-4);}
+#btt{position:fixed; bottom:var(--size-6); right:var(--size-2); cursor:pointer; transition:var(--default-transition);
+z-index:calc(var(--max-zindex) - 4000); width:40px; height:40px; background-color:var(--color-3); fill:var(--color-2); border-radius:50%;}
+#btt:hover, #btt:focus{background-color:var(--bg-2);}
 
 
 
@@ -43,7 +40,17 @@ border-top-left-radius:var(--rounded-2); border-bottom-left-radius:var(--rounded
 
 
 
-.float-player, .float-player .controls{background-color:var(--bg-3); border:0;}
+.main-link img{transition:var(--default-transition); animation:see-more 1s linear infinite alternate;}
+  @-webkit-keyframes see-more{0%{top:0;}50%{top:8px;}100%{top:0;};}
+  @keyframes see-more{0%{top:0;}50%{top:8px;}100%{top:0;};}
+
+.main-link:hover img{transform:scale(1.2);}
+
+
+
+.bg-bottom{background:url("../img/bg-bottom.png") repeat-x bottom left;}
+
+.float-player, .float-player .controls{background-color:transparent; border:0;}
 .float-player{box-shadow:0 0 0;}
 
 
@@ -56,7 +63,7 @@ border-top-left-radius:var(--rounded-2); border-bottom-left-radius:var(--rounded
 .rancak-popup > .rancak-popup-close .flexicon{width:auto; height:var(--default-size-5);}
 .rancak-popup > .rancak-popup-container{padding:var(--default-size-6);}
 .rancak-popup-box{position:relative; z-index:2000; padding:var(--default-size-4); max-width:610px;
-background-color:var(--bg-3); border-radius:var(--rounded-2);}
+background-color:var(--bg-2); border-radius:var(--rounded-2);}
 
 
 
