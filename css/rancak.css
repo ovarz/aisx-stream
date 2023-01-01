@@ -14,7 +14,7 @@
   --default-fontsize:15px;
   --title-fontsize:17px;
   --max-zindex:2147483648;
-  --bg-1:#a53b1f;
+  --bg-1:#9276c3;
 }
 
 
@@ -48,8 +48,8 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 .main-box img{filter:drop-shadow(5px 5px 8px rgba(0,0,0,0.5));}
 .main-link-thumb{max-width:70%; margin:0 auto; position:relative; z-index:1000;}
 
-.main-box-1 .main-link-thumb:before{padding-top:89.74%;}
-.main-box-1 .main-place:before{padding-top:64.01%;}
+.main-box-1 .main-link-thumb:before, .main-box-4 .main-link-thumb:before{padding-top:89.74%;}
+.main-box-1 .main-place:before, .main-box-4 .main-place:before{padding-top:64.01%;}
 
 .main-box-2 .main-link-thumb:before{padding-top:89.74%;}
 .main-box-2 .main-place:before{padding-top:78.12%;}
@@ -57,9 +57,9 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 .main-box-3 .main-link-thumb:before{padding-top:89.74%;}
 .main-box-3 .main-place:before{padding-top:67.12%;}
 
+.main-box-4 .main-place img{transform:scaleX(-1);}
 
 
-.bg-bottom{position:absolute; z-index:1; bottom:-15px; left:0; width:100%; height:273px;}
 
 .float-player{position:absolute; z-index:calc(var(--max-zindex) - 5000); bottom:0; left:0; width:100%; height:70px; margin-bottom:0; padding:var(--size-3);}
 .float-player .playerScreen{display:none;}
@@ -84,6 +84,7 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
     .main-box-1{bottom:10%; left:8%; width:120px;}
     .main-box-2{bottom:65%; left:25%; width:130px;}
     .main-box-3{bottom:27%; left:45%; width:175px;}
+    .main-box-4{bottom:27%; left:45%; width:175px;}
   }
   
   
@@ -92,6 +93,7 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
     .main-box-1{bottom:15%; left:8%; width:110px;}
     .main-box-2{bottom:30%; left:40%; width:120px;}
     .main-box-3{bottom:15%; left:70%; width:160px;}
+    .main-box-4{bottom:15%; left:70%; width:160px;}
   }
 }
 
@@ -105,7 +107,8 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
   
   
   
-  .main-box-1{bottom:20%; left:15%; width:210px;}
-  .main-box-2{bottom:50%; left:45%; width:130px;}
-  .main-box-3{bottom:30%; left:70%; width:240px;}
+  .main-box-1{bottom: 10%;left: 10%;width:210px;}
+  .main-box-2{bottom: 66%;left: 30%;width:130px;}
+  .main-box-3{bottom: 25%;left: 45%;width:240px;}
+  .main-box-4{bottom: 50%;left: 75%;width:240px;}
 }
