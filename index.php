@@ -5,6 +5,7 @@
 <?php require ($_SERVER['ASIX_IDWS'].'inc/meta.php')?>
 <h1 class="hide"><?php echo $page; ?></h1>
 <div class="rancak-container">
+
   <a aria-label="Link_Title" title="Link_Title" class="back-to-home" href="https://www.asixplus.io/">
     <?php require ($_SERVER['ASIX_IDWS'].'img/icon/back.svg')?>
 	<span>Back To Home</span>
