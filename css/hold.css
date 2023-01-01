@@ -4,9 +4,9 @@
   --border-color-light:255 255 255;
   --color-1:#EEEEEE; 
   --color-2:#FFFFFF;
-  --color-3:#C60000;
-  --color-4:#FFDA2B;
-  --color-5:#007400;
+  --color-3:#db8c9f;
+  --color-4:#c9b400;
+  --color-5:#db8d66;
   --default-transition:all 0.34s;
   --rounded-1:var(--size-1);
   --rounded-2:var(--size-2);
@@ -40,11 +40,12 @@ z-index:calc(var(--max-zindex) - 4000); width:40px; height:40px; background-colo
 
 
 
+.main-box img{filter:drop-shadow(5px 5px 8px rgba(0,0,0,0.5));}
 .main-link img{transition:var(--default-transition); animation:see-more 1s linear infinite alternate;}
-  @-webkit-keyframes see-more{0%{top:0;}50%{top:8px;}100%{top:0;};}
-  @keyframes see-more{0%{top:0;}50%{top:8px;}100%{top:0;};}
-
+@-webkit-keyframes see-more{0%{top:0;}50%{top:8px;}100%{top:0;};}
+@keyframes see-more{0%{top:0;}50%{top:8px;}100%{top:0;};}
 .main-link:hover img{transform:scale(1.2);}
+.main-name{text-shadow:5px 5px 8px rgba(0,0,0,0.5);}
 
 
 
@@ -59,10 +60,10 @@ z-index:calc(var(--max-zindex) - 4000); width:40px; height:40px; background-colo
 .rancak-popup{position:fixed; z-index:calc(var(--max-zindex) - 2000);}
 .rancak-popup > *{position:absolute;}
 .rancak-popup > .rancak-popup-overlay{z-index:1; background-color:rgb(var(--border-color-dark) / 55%);}
-.rancak-popup > .rancak-popup-close{z-index:1000; width:var(--default-size-6); height:var(--default-size-6);}
-.rancak-popup > .rancak-popup-close .flexicon{width:auto; height:var(--default-size-5);}
-.rancak-popup > .rancak-popup-container{padding:var(--default-size-6);}
-.rancak-popup-box{position:relative; z-index:2000; padding:var(--default-size-4); max-width:610px;
+.rancak-popup > .rancak-popup-close{z-index:1000; width:var(--size-5); height:var(--size-5); padding:var(--size-2);}
+.rancak-popup > .rancak-popup-close .flexicon{width:auto; height:var(--size-5);}
+.rancak-popup > .rancak-popup-container{padding:var(--size-5);}
+.rancak-popup-box{position:relative; z-index:2000; padding:var(--size-4); max-width:610px;
 background-color:var(--bg-2); border-radius:var(--rounded-2);}
 
 
