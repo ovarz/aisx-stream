@@ -60,6 +60,7 @@
 
 
 
+<div class="bg-bottom"></div>
 <section title="Streaming" id="uniquePlayer-5" class="webPlayer light audioPlayer float-player">
   <div id="uniqueContainer-5" class="videoPlayer"></div>
   <div style="display:none;" class="playerData">
