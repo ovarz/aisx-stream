@@ -99,6 +99,48 @@
 	</div>
   </div>
 </div>
+  
+  
+	
+<div id="popup-Musics" class="rancak-popup hide">
+  <div class="rancak-popup-overlay"></div>
+  <button title="Close" class="popup-close-button rancak-popup-close content_center">
+	<?php require ($_SERVER['ASIX_IDWS'].'img/icon/close.svg')?>
+  </button>
+  <div class="rancak-popup-container content_center">
+	<div class="rancak-popup-box">
+	  Coming Soon
+	</div>
+  </div>
+</div>
+  
+  
+	
+<div id="popup-Podcast" class="rancak-popup hide">
+  <div class="rancak-popup-overlay"></div>
+  <button title="Close" class="popup-close-button rancak-popup-close content_center">
+	<?php require ($_SERVER['ASIX_IDWS'].'img/icon/close.svg')?>
+  </button>
+  <div class="rancak-popup-container content_center">
+	<div class="rancak-popup-box">
+	  Coming Soon
+	</div>
+  </div>
+</div>
+  
+  
+	
+<div id="popup-Others" class="rancak-popup hide">
+  <div class="rancak-popup-overlay"></div>
+  <button title="Close" class="popup-close-button rancak-popup-close content_center">
+	<?php require ($_SERVER['ASIX_IDWS'].'img/icon/close.svg')?>
+  </button>
+  <div class="rancak-popup-container content_center">
+	<div class="rancak-popup-box">
+	  Coming Soon
+	</div>
+  </div>
+</div>
 
 
 
