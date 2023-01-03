@@ -16,7 +16,7 @@
   <section title="Menu" class="main-box main-box-1">
     <button title="GlobalMarket" class="main-link open-sticky">
       <div class="main-link-thumb flex_ori thumb-loading">
-        <img alt="Img_Title" class="lazyload" data-original="img/logo.png" />
+        <img alt="Img_Title" class="lazyload" data-original="img/global.svg" />
       </div>
     </button>
 	<h2 class="main-name">Global Market</h2>
@@ -30,12 +30,12 @@
   <section title="Menu" class="main-box main-box-3">
     <button title="Scheme" class="main-link open-sticky">
       <div class="main-link-thumb flex_ori thumb-loading">
-        <img alt="Img_Title" class="lazyload" data-original="img/logo.png" />
+        <img alt="Img_Title" class="lazyload" data-original="img/scheme.svg" />
       </div>
     </button>
 	<h2 class="main-name">Scheme</h2>
 	<div class="main-place flex_ori thumb-loading">
-	  <img alt="Img_Title" class="lazyload" data-original="img/main-place-3.svg" />
+	  <img alt="Scheme" class="lazyload" data-original="img/main-place-3.svg" />
 	</div>
   </section>
 
@@ -44,12 +44,12 @@
   <section title="Menu" class="main-box main-box-2">
     <button title="Benefit" class="main-link open-sticky">
       <div class="main-link-thumb flex_ori thumb-loading">
-        <img alt="Img_Title" class="lazyload" data-original="img/logo.png" />
+        <img alt="Img_Title" class="lazyload" data-original="img/benefit.svg" />
       </div>
     </button>
 	<h2 class="main-name">Benefit</h2>
 	<div class="main-place flex_ori thumb-loading">
-	  <img alt="Img_Title" class="lazyload" data-original="img/main-place-2.svg" />
+	  <img alt="Benefit" class="lazyload" data-original="img/main-place-2.svg" />
 	</div>
   </section>
 
@@ -58,7 +58,7 @@
   <section title="Menu" class="main-box main-box-4">
     <a aria-label="Social Media" title="SocialMedia" class="main-link" href="https://www.instagram.com/asixplus/" target="_blank">
       <div class="main-link-thumb flex_ori thumb-loading">
-        <img alt="Img_Title" class="lazyload" data-original="img/logo.png" />
+        <img alt="Img_Title" class="lazyload" data-original="img/socmed.svg" />
       </div>
     </a>
 	<h2 class="main-name">Social Media</h2>
