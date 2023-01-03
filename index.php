@@ -80,7 +80,7 @@
       "autoplay":"true",
       "size":{"width":"510px"},
       "media":{
-        "m4a":"https://175.103.48.4:9304/;"
+        "m4a":"http://175.103.48.4:9304/;"
       }
     }
   </div>
