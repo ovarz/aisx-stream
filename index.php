@@ -16,7 +16,7 @@
   <section title="Menu" class="main-box main-box-1">
     <button title="GlobalMarket" class="main-link open-sticky">
       <div class="main-link-thumb flex_ori thumb-loading">
-        <img alt="Img_Title" class="lazyload" data-original="img/global.svg" />
+        <img alt="Img_Title" class="lazyload" data-original="img/global.png" />
       </div>
     </button>
 	<h2 class="main-name">Global Market</h2>
@@ -30,7 +30,7 @@
   <section title="Menu" class="main-box main-box-3">
     <button title="Scheme" class="main-link open-sticky">
       <div class="main-link-thumb flex_ori thumb-loading">
-        <img alt="Img_Title" class="lazyload" data-original="img/scheme.svg" />
+        <img alt="Img_Title" class="lazyload" data-original="img/scheme.png" />
       </div>
     </button>
 	<h2 class="main-name">Scheme</h2>
@@ -44,7 +44,7 @@
   <section title="Menu" class="main-box main-box-2">
     <button title="Benefit" class="main-link open-sticky">
       <div class="main-link-thumb flex_ori thumb-loading">
-        <img alt="Img_Title" class="lazyload" data-original="img/benefit.svg" />
+        <img alt="Img_Title" class="lazyload" data-original="img/benefit.png" />
       </div>
     </button>
 	<h2 class="main-name">Benefit</h2>
@@ -58,7 +58,7 @@
   <section title="Menu" class="main-box main-box-4">
     <a aria-label="Social Media" title="SocialMedia" class="main-link" href="https://www.instagram.com/asixplus/" target="_blank">
       <div class="main-link-thumb flex_ori thumb-loading">
-        <img alt="Img_Title" class="lazyload" data-original="img/socmed.svg" />
+        <img alt="Img_Title" class="lazyload" data-original="img/socmed.png" />
       </div>
     </a>
 	<h2 class="main-name">Social Media</h2>

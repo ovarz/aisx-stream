@@ -52,7 +52,7 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 .main-box .flex_ori{overflow:inherit;}
 .main-link{width:100%;}
 .main-name{margin:var(--size-2) 0; text-align:center; font-weight:900; text-transform:uppercase;}
-.main-link-thumb{max-width:70%; margin:0 auto; position:relative; z-index:1000;}
+.main-link-thumb{width:50%; max-width:111px; margin:0 auto; position:relative; z-index:1000;}
 .main-link-thumb:before{padding-top:100%;}
 
 .main-box-1 .main-place:before, .main-box-4 .main-place:before{padding-top:64.01%;}
