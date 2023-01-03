@@ -14,12 +14,12 @@
 
 
   <section title="Menu" class="main-box main-box-1">
-    <button title="Musics" class="main-link open-sticky">
+    <button title="GlobalMarket" class="main-link open-sticky">
       <div class="main-link-thumb flex_ori thumb-loading">
         <img alt="Img_Title" class="lazyload" data-original="img/logo.png" />
       </div>
     </button>
-	<h2 class="main-name">HD Musics</h2>
+	<h2 class="main-name">Global Market</h2>
 	<div class="main-place flex_ori thumb-loading">
 	  <img alt="Img_Title" class="lazyload" data-original="img/main-place-1.svg" />
 	</div>
@@ -27,27 +27,13 @@
 
 
 
-  <section title="Menu" class="main-box main-box-2">
-    <button title="Videos" class="main-link open-sticky">
-      <div class="main-link-thumb flex_ori thumb-loading">
-        <img alt="Img_Title" class="lazyload" data-original="img/logo.png" />
-      </div>
-    </button>
-	<h2 class="main-name">HD Videos</h2>
-	<div class="main-place flex_ori thumb-loading">
-	  <img alt="Img_Title" class="lazyload" data-original="img/main-place-2.svg" />
-	</div>
-  </section>
-
-
-
   <section title="Menu" class="main-box main-box-3">
-    <button title="Podcast" class="main-link open-sticky">
+    <button title="Scheme" class="main-link open-sticky">
       <div class="main-link-thumb flex_ori thumb-loading">
         <img alt="Img_Title" class="lazyload" data-original="img/logo.png" />
       </div>
     </button>
-	<h2 class="main-name">Podcast</h2>
+	<h2 class="main-name">Scheme</h2>
 	<div class="main-place flex_ori thumb-loading">
 	  <img alt="Img_Title" class="lazyload" data-original="img/main-place-3.svg" />
 	</div>
@@ -55,13 +41,27 @@
 
 
 
-  <section title="Menu" class="main-box main-box-4">
-    <button title="Others" class="main-link open-sticky">
+  <section title="Menu" class="main-box main-box-2">
+    <button title="Benefit" class="main-link open-sticky">
       <div class="main-link-thumb flex_ori thumb-loading">
         <img alt="Img_Title" class="lazyload" data-original="img/logo.png" />
       </div>
     </button>
-	<h2 class="main-name">Others</h2>
+	<h2 class="main-name">Benefit</h2>
+	<div class="main-place flex_ori thumb-loading">
+	  <img alt="Img_Title" class="lazyload" data-original="img/main-place-2.svg" />
+	</div>
+  </section>
+
+
+
+  <section title="Menu" class="main-box main-box-4">
+    <a aria-label="Social Media" title="SocialMedia" class="main-link" href="https://www.instagram.com/asixplus/" target="_blank">
+      <div class="main-link-thumb flex_ori thumb-loading">
+        <img alt="Img_Title" class="lazyload" data-original="img/logo.png" />
+      </div>
+    </a>
+	<h2 class="main-name">Social Media</h2>
 	<div class="main-place flex_ori thumb-loading">
 	  <img alt="Img_Title" class="lazyload" data-original="img/main-place-1.svg" />
 	</div>
@@ -88,56 +88,48 @@
   
   
 	
-<div id="popup-Videos" class="rancak-popup hide">
+<div id="popup-GlobalMarket" class="rancak-popup hide">
   <div class="rancak-popup-overlay"></div>
   <button title="Close" class="popup-close-button rancak-popup-close content_center">
 	<?php require ($_SERVER['ASIX_IDWS'].'img/icon/close.svg')?>
   </button>
   <div class="rancak-popup-container content_center">
-	<div class="rancak-popup-box">
-	  Coming Soon
+	<div class="rancak-popup-box rancak-content-box">
+	  <div class="rcb-image flex_ori thumb-loading">
+	    <img alt="Global Market" class="lazyload" data-original="img/global-market.jpg" />
+	  </div>
 	</div>
   </div>
 </div>
   
   
 	
-<div id="popup-Musics" class="rancak-popup hide">
+<div id="popup-Scheme" class="rancak-popup hide">
   <div class="rancak-popup-overlay"></div>
   <button title="Close" class="popup-close-button rancak-popup-close content_center">
 	<?php require ($_SERVER['ASIX_IDWS'].'img/icon/close.svg')?>
   </button>
   <div class="rancak-popup-container content_center">
-	<div class="rancak-popup-box">
-	  Coming Soon
+	<div class="rancak-popup-box rancak-content-box">
+	  <div class="rcb-image flex_ori thumb-loading">
+	    <img alt="Scheme" class="lazyload" data-original="img/scheme.jpg" />
+	  </div>
 	</div>
   </div>
 </div>
   
   
 	
-<div id="popup-Podcast" class="rancak-popup hide">
+<div id="popup-Benefit" class="rancak-popup hide">
   <div class="rancak-popup-overlay"></div>
   <button title="Close" class="popup-close-button rancak-popup-close content_center">
 	<?php require ($_SERVER['ASIX_IDWS'].'img/icon/close.svg')?>
   </button>
   <div class="rancak-popup-container content_center">
-	<div class="rancak-popup-box">
-	  Coming Soon
-	</div>
-  </div>
-</div>
-  
-  
-	
-<div id="popup-Others" class="rancak-popup hide">
-  <div class="rancak-popup-overlay"></div>
-  <button title="Close" class="popup-close-button rancak-popup-close content_center">
-	<?php require ($_SERVER['ASIX_IDWS'].'img/icon/close.svg')?>
-  </button>
-  <div class="rancak-popup-container content_center">
-	<div class="rancak-popup-box">
-	  Coming Soon
+	<div class="rancak-popup-box rancak-content-box">
+	  <div class="rcb-image flex_ori thumb-loading">
+	    <img alt="Benefit" class="lazyload" data-original="img/benefit.jpg" />
+	  </div>
 	</div>
   </div>
 </div>
