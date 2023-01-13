@@ -1,6 +1,6 @@
 <head>
 <meta charset="utf-8">
-<meta name="robots" content="noindex, nofollow">				
+<meta name="robots" content="index, follow">				
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
@@ -19,7 +19,7 @@
 <link rel="preload" as="script" href="js/jquery.jplayer.js">
 <link rel="preload" as="script" href="js/system.js">
 
-<style><?php require ($_SERVER['VIVAONE'].'css/font.css')?></style>
+<style><?php require ($_SERVER['ASIX_IDWS'].'css/font.css')?></style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>');</script>
 <script type="text/javascript" src="js/jquery.jplayer.js"></script>
